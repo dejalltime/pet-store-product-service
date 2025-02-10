@@ -28,7 +28,7 @@ async def get_products():
     return products
 
 # Get PORT from environment variables
-PORT = int(os.getenv("PORT", 3030))  # Default to 3030 if not set
+PORT = int(os.getenv("PORT", 8000))  # Default to 8000 if not set
 
 if __name__ == "__main__":
     import uvicorn
